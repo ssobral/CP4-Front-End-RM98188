@@ -1,0 +1,51 @@
+.como_trabalhamos{
+    display: flex;
+    margin-top: 4.5rem;
+}
+
+.como_trabalhamos-titulo{
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-secundario);
+    font-weight: 700;
+}
+
+.como_trabalhamos-texto{
+    font-size: var(--tamanho-fonte);
+    font-family: var(--fonte-principal);
+    margin-top: 3rem;
+}
+
+.como_trabalhamos-info{
+    margin: 0 6.06rem 0 7.5rem;
+}
+
+.como_trabalhamos-texto2,
+.como_trabalhamos-texto3{
+    margin-top:2.5rem;
+    font-size: var(--tamanho-fonte);
+    font-family: var(--fonte-principal);
+}
+
+.como_trabalhamos-botoes{
+    margin-top: 0.6rem;
+    display: flex;
+    gap: 1.8rem;
+}
+
+.como_trabalhamos_botoes-botao{
+    text-decoration: none;
+    padding: 1rem 6.3rem;
+    background-color: var(--verde);
+    color: var(--branco);
+    font-size: 25px;
+    font-family: var(--fonte-secundario);
+    border-radius: 10px;
+
+}
+
+.como_trabalhamos_botoes-botao:hover{
+    border: 2px solid var(--verde);
+    background-color: var(--branco);
+    color:var(--verde);
+}
+

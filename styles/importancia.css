@@ -1,0 +1,35 @@
+.importancia-1{
+    display: flex;
+}
+
+.importancia-textos{
+    margin-left: 7.5rem;
+}
+
+.importancia-textos-titulo{
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-secundario);
+    font-weight: 700;
+}
+
+.importancia-textos-texto{
+    font-size: var(--tamanho-fonte);
+    font-family: var(--fonte-principal);
+    margin: 3.1rem 6.06rem 0 0;
+}
+
+.importancia-enfeite{
+    transform: rotate(180deg);
+}
+
+.importancia-2{
+    display: flex;
+    margin-top: 2.9rem;
+    align-items: center;
+}
+
+.importancia2-textos-texto{
+    font-size: var(--tamanho-fonte);
+    font-family: var(--fonte-principal);
+    margin-left: 6.5rem;
+}

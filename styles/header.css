@@ -1,0 +1,38 @@
+.cabecalho{
+    background-color: var(--verde);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5.9rem;
+}
+
+.cabecalho-info_enpresa{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho-logo{
+    width: 4.6rem;
+    height: 3.8rem;
+    margin: 0.4rem;
+}
+
+.cabecalho-titulo{
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-secundario);
+    color: var(--branco)
+}
+
+.cabecalho-titulo-destaque{
+    font-weight: 700;
+    font-size: var(--tamanho-fonte-titulo);
+    font-family: var(--fonte-secundario);
+}
+
+.cabecalho-item{
+    font-size: var(--tamanho-fonte);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    text-transform: uppercase;
+    text-decoration: none;
+}

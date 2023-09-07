@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+@import url(./styles/header.css);
+@import url(./styles/banner.css);
+@import url(./styles/sobrenos.css);
+@import url(./styles/importancia.css);
+@import url(./styles/comotrabalhamos.css);
+@import url(./styles/vantagens.css);
+@import url(./styles/footer.css);
+
+:root{
+    --branco: #FFFFFF;
+    --verde: #2D9471;
+    --tamanho-fonte: 16px;
+    --tamanho-fonte-titulo: 30px;
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
