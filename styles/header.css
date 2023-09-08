@@ -3,7 +3,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 5.9rem;
+    
 }
 
 .cabecalho-info_enpresa{
@@ -30,9 +30,15 @@
 }
 
 .cabecalho-item{
+    margin-left: 5.9rem;
     font-size: var(--tamanho-fonte);
     color: var(--branco);
     font-family: var(--fonte-principal);
     text-transform: uppercase;
     text-decoration: none;
+}
+
+.cabecalho-lista{
+    list-style: none;
+    display: flex;
 }
