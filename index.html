@@ -1,24 +1,31 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> 
+<html lang="pt-br"> 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Lucas Sobral">
-    <meta name="description" content="Projeto de limpeza das ruas">
-    <meta name="keywords" content="CSS3, HTML5, FIAP">
-    <title>KIT ON</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="website icon" type="png" href="./images/Logo.png">
+    <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8, que suporta a maioria dos caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Define a configuração de visualização inicial para dispositivos móveis -->
+    <meta name="author" content="Lucas Sobral"> <!-- Define o autor da página -->
+    <meta name="description" content="Projeto de limpeza das ruas"> <!-- Fornece uma descrição breve da página para mecanismos de busca -->
+    <meta name="keywords" content="CSS3, HTML5, FIAP"> <!-- Lista de palavras-chave relacionadas à página -->
+    <title>KIT ON</title> <!-- Define o título da página, que aparecerá na aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Importa um arquivo externo de estilo CSS chamado "style.css" -->
+    <link rel="website icon" type="png" href="./images/Logo.png"> <!-- Define o ícone da página exibido na aba do navegador -->
 </head>
 <body>
-    <div class="container">
+
+    
+    <div class="container"><!--Declaração do Container para modificações-->
+
+        <!--Cabeçalho do Projeto com itens de navegação-->
         <header class="cabecalho">
+            <!--Primeira sessão  do cabeçalho, com logo e nome da empresa-->
             <div class="cabecalho-info_enpresa">
                 <img src="./images/logo branco.png" alt="Logo KIT ON" class="cabecalho-logo">
                 <p class="cabecalho-titulo"><strong class="cabecalho-titulo-destaque">KIT</strong> ON</p>
             </div>
+            <!--Lista com links de navegação do site-->
             <nav>
-                <ul class="cabecalho-lista">
+                <ul class="cabecalho-lista"><!--Lista-->
+                    <!--itens de navegações-->
                     <li><a href="#" class="cabecalho-item">Sua cozinha</a></li>
                     <li><a href="#" class="cabecalho-item">Contato</a></li>
                     <li><a href="#" class="cabecalho-item">Login</a></li>
@@ -26,71 +33,76 @@
             </nav>
         </header>
 
+        <!--Sessão do Banner do site com imagem e classes para estilização-->
         <section class="banner">
-            <img src="./images/banner.svg" alt="Banner da empresa" class="banner-banner">
+            <img src="./images/banner.svg" alt="Banner da empresa" class="banner-banner"><!--Imagem do banner-->
         </section>
 
+        <!--Sessão com informações sobre a empresa-->
         <section class="sobre_nos">
-            <img src="./images/Logo.png" alt="Logo KIT ON" class="sobre_nos-logo">
-            <div class="sobre_nos-textos">
-                <p class="sobre_nos-textos-titulo">Sobre nós</p>
-                <p class="sobre_nos-textos-texto">O projeto KIT ON nasceu da ideia de diminuir a quantidade de lixo nas ruas. E para fazer isso, escolhemos o método de conscientizar as pessoas, porém, não entregando informações massantes e desncessárias para o público, e sim, de maneira interativa. De forma que os usuários teriam um meio de administrar seus alimentos e receber informações sobre o formas de utiliza-lo e a maneira correta de descarta-lo, junto de avisos sobre a importância o descarte de lixo correto.</p>
+            <img src="./images/Logo.png" alt="Logo KIT ON" class="sobre_nos-logo"> <!--Logo da empresa-->
+            <div class="sobre_nos-textos"><!--Divisão para estilização, com textos-->
+                <p class="sobre_nos-textos-titulo">Sobre nós</p><!--Título da sessão-->
+                <p class="sobre_nos-textos-texto">O projeto KIT ON nasceu da ideia de diminuir a quantidade de lixo nas ruas. E para fazer isso, escolhemos o método de conscientizar as pessoas, porém, não entregando informações massantes e desncessárias para o público, e sim, de maneira interativa. De forma que os usuários teriam um meio de administrar seus alimentos e receber informações sobre o formas de utiliza-lo e a maneira correta de descarta-lo, junto de avisos sobre a importância o descarte de lixo correto.</p><!--Texto sobre a empresa-->
             </div>
         </section>
 
+        <!--Sessão sobre a importância da ação da empresa-->
         <section class="importancia">
-            <div class="importancia-1">
-                <div class="importancia-textos">
+            <div class="importancia-1"><!--Divisão com a primeira parte da sessão da importância-->
+                <div class="importancia-textos"><!--Divisão com textos sobre a importância-->
                     <p class="importancia-textos-titulo">Importância</p>
                     <p class="importancia-textos-texto">Descartar o lixo de maneira correta pode trazer diversos benefícios para toda a humanidade. Quando se é separado o lixo de maneira correta, se facilita os meios de tratamento deles e diminuem a chance de ter impactos nocivos para o ambiente.
                     </p>
                 </div>
-                <img src="./images/Enfeite.svg" class="importancia-enfeite" alt="Enfeite visual">
+                <img src="./images/Enfeite.svg" class="importancia-enfeite" alt="Enfeite visual"><!--Imagem enfeite de tela-->
             </div>
-            <div class="importancia-2">
-                <img src="./images/Enfeite.svg" class="importancia-enfeite2" alt="Enfeite visual">
+            <div class="importancia-2"><!--Segunda divisão da sessão da importância-->
+                <img src="./images/Enfeite.svg" class="importancia-enfeite2" alt="Enfeite visual"><!--Imagem enfeite de tela-->
                 <p class="importancia2-textos-texto">Alguns dos benefícios do descarte apropriado do lixo seria a diminuição da poluição, diminuição de situações de alagamento, diminuição do gasto com limpezas urbanas, valorização dos pontos turísticos, Descontaminação do lençol freático.</p>
             </div>
         </section>
 
+        <!--Sessão com informações de como a empresa trabalha-->
         <section class="como_trabalhamos">
-            <div class="como_trabalhamos-info">
+            <div class="como_trabalhamos-info"><!--Divisão com textos da sessão-->
                 <p class="como_trabalhamos-titulo">Como trabalhamos</p>
                 <p class="como_trabalhamos-texto ">Ao acessar a rede KIT ON, você poderá registrar todos os alimentos presentes na sua casa, sendo necessário junto deles adicionar suas respectivas datas de validade. Após isso, nós separaremos receitas que podem ser cozinhadas utilizando os ingredientes registrados.</p>
                 <p class="como_trabalhamos-texto2">E caso a data de validade se aproxime, você receberá a avisos, a forma correta de descarta-lo e a importância disso.</p>
                 <p class="como_trabalhamos-texto3">Para aproveitar nossos benefícios, basta entrar na rede KIT ON:</p>
-                <div class="como_trabalhamos-botoes">
-                    <a href="#" class="como_trabalhamos_botoes-botao">Login</a>
+                <div class="como_trabalhamos-botoes"><!--Divisão com os botões de navegação-->
+                    <a href="#" class="como_trabalhamos_botoes-botao">Login</a><!--Botões de navegação-->
                     <a href="#" class="como_trabalhamos_botoes-botao">Duvidas</a>
                 </div>
             </div>
-            <img src="./images/Enfeite-2.svg" alt="Enfeite visual" class="como_trabalhamos-enfeite">
+            <img src="./images/Enfeite-2.svg" alt="Enfeite visual" class="como_trabalhamos-enfeite"><!--Imagem enfeite de tela-->
         </section>
 
+        <!--Sessão com vantagens -->
         <section class="vantagens">
-            <p class="vantagens-titulo">Vantagens</p>
-            <div class="cards">
-                <div class="card">
-                    <img src="./images/imagem-desbrave novas receitas.svg" alt="Imagem-Desbrave novas receitas" class="imagem-card">
-                    <p class="card-texto">Desbrave novas receitas</p>
+            <p class="vantagens-titulo">Vantagens</p><!--Titulo da sessão de vantagens da empresa-->
+            <div class="cards"><!--Divisão com os cards de vantagens-->
+                <div class="card"><!--Card-->
+                    <img src="./images/imagem-desbrave novas receitas.svg" alt="Imagem-Desbrave novas receitas" class="imagem-card"><!--Imagem do card-->
+                    <p class="card-texto">Desbrave novas receitas</p><!--Texto do card-->
                 </div>
                 <div class="card">
-                    <img src="./images/imagem-controle seus ingredientes.svg" alt="Imagem-Controle seus ingredientes" class="imagem-card">
-                    <p class="card-texto">Controle seus ingredientes</p>
+                    <img src="./images/imagem-controle seus ingredientes.svg" alt="Imagem-Controle seus ingredientes" class="imagem-card"><!--Imagem do card-->
+                    <p class="card-texto">Controle seus ingredientes</p><!--Texto do card-->
                 </div>
                 <div class="card">
-                    <img src="./images/imagem-ajude a limpar as ruas.svg" alt="Imagem-Ajude a limpar as ruas" class="imagem-card">
-                    <p class="card-texto">Ajude a limpar as ruas</p>
+                    <img src="./images/imagem-ajude a limpar as ruas.svg" alt="Imagem-Ajude a limpar as ruas" class="imagem-card"><!--Imagem do card-->
+                    <p class="card-texto">Ajude a limpar as ruas</p><!--Texto do card-->
                 </div>
             </div>
         </section>
 
-    
+        <!--Footer do projeto-->
         <footer class="rodape">
-            <a href="#" class="rodape-item">Sua cozinha</a>
-            <a href="#" class="rodape-item">Nos contate</a>
-            <a href="#" class="rodape-item">Login/Cadastro</a>
-            <a href="#" class="rodape-item">Termos de Uso</a>
+            <a href="#" class="rodape-item">Sua cozinha</a><!--Item ancora de navegação-->
+            <a href="#" class="rodape-item">Nos contate</a><!--Item ancora de navegação-->
+            <a href="#" class="rodape-item">Login/Cadastro</a><!--Item ancora de navegação-->
+            <a href="#" class="rodape-item">Termos de Uso</a><!--Item ancora de navegação-->
         </footer>
     </div>
 </body>
